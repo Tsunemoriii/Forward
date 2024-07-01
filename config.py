@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://utahakane008:utahakane008@cluster0.ugnnf20.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "AQGi8fAAjldmHnMNoxYD6oEijUN38EKtgjP9ISs7tnqb0xreMSBYP2kOPBpl_SIUtWGBoDkLPfp51mGRc20yHLyORYCDuxBg3i9Mvs76kUjWTjHBB9icRuZ2QSfhPAqnSLb472TU6Owz1CTWx6hJqMEt4iGov4FgzH37IGsJ5OKCVnV8AMfBfdjNZExHUg2RenClC1EXpCiGWY9i4Luu8ykljMil33UKfl8DphqcFqeBGTJH06_mDh0upvtxxCl4LBh6aJxKFL5MvLB_nBmmLbPSSUuKqPs4O8ofL2LfVd_PwlQq7dIHMLR0lI25emV4yIh-94FUqNkUdw6HUJ9oCq5qXAUZpAAAAAByirZPAA")   
+    SESSION = os.environ.get("SESSION", "")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1002156297566"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "")
 
